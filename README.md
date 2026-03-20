@@ -35,7 +35,7 @@ Each class contains **TODOs** that you must complete.
 
 # Project Progression (Checkpoints)
 
-You must complete each checkpoint before moving on.
+You should complete each checkpoint before moving on. You don't need to actually get graded on each step before moving on, but it is highly recommended to follow this progression so you can make sure each step is building properly on the previous one.
 
 ---
 
