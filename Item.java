@@ -26,6 +26,8 @@ public class Item {
 
    public Item() {
       // TODO: Pick a random item type from itemTypes
+      int randomIndex = (int) (Math.random() * itemTypes.length);
+      this.itemType = itemTypes[randomIndex];
    }
    
    public String getItemType() {
@@ -34,5 +36,18 @@ public class Item {
    
    public String toString() {
       // TODO: Build a descriptive String for use by other methods
+      if (isEquipped == true)
+      {
+         return itemType + ": (Equipped)";
+      }
+      else
+      {
+         return itemType + ": (Not Equipped)";
+      }
+      
+      
+      
+      
    }
+   
 }
