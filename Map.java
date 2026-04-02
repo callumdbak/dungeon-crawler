@@ -23,11 +23,11 @@ public class Map {
       // Hint: Use nested for loops to fill every row and column
       // Another Hint: use the Room constructor to populate the Monsters and Items
       
-      for (int i = 0; i > roomGrid[0].length; i++)
+      for (int r = 0; r < getNumRows(); r++) 
       {
-         for (int g = 0; g > roomGrid.length; g++)
+         for (int c = 0; c < getNumCols(); c++)
          {
-            roomGrid[i][g] = new Room();
+            roomGrid[r][c] = new Room();
          }
       }
       

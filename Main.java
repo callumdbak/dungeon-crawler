@@ -1,7 +1,11 @@
 public class Main {
    public static void main(String[] args) {
-      Room room1 = new Room();
-      System.out.println(room1);
+   
+     Player p = new Player(100, "Hero", 0, 0);
+     Map map = new Map(5, 6);
+     System.out.println(p.look(map));
+     p.moveTo(1, 2);
+     System.out.println(p.look(map));
       
-   }
+   } 
 }
